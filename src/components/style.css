@@ -1,0 +1,173 @@
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Bodoni MT Black";
+}
+
+.header /* uporer tuku*/
+{
+   width: 100%;
+   line-height: 75px;
+   background-color: #f5ba13;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   padding-left: 50px;
+   color: white;
+   box-shadow: 5px 3px 15px -5px rgba(0, 0, 0, 0.5);
+}
+
+.main_note /* blue color er div*/
+{
+   width: 500px;
+   display: flex;
+   margin: 20px auto;
+   padding: 15px 10px 5px 10px;
+   background-color: #f5ba13;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+}
+
+form /* red color er ta */
+{
+   background-color: rgb(201, 224, 211);
+   min-height: 50px;
+   color: #ecf0f1;
+   padding: 15px 10px 5px 10px;
+   border-radius: 10px;
+   position: relative;
+}
+
+input /* yellow color er ta */
+{
+width: 100%;
+line-height: 30px;
+background: transparent;
+/* border: none;
+outline: none; */
+font-size: 1.5rem;
+margin: 10px 0;
+border-radius: 10px;
+font-weight: bold;
+text-decoration-color: black;
+}
+
+textarea /* purple color er ta */
+{
+   width: 100%;
+   line-height: 30px;
+   background: transparent;
+   /* border: none;
+   outline: none; */
+   font-size: 1rem;
+   margin: 10px 0;
+   border-radius: 10px;
+}
+
+.MuiButton-root  /* #ff0f color er ta */
+{
+   width: 60px;
+   height: 60px;
+   position: absolute;
+   bottom: -28px;
+   left: 400px;
+   cursor: pointer;
+   background-color: #ff0f !important;
+   box-shadow: 3px 3px 15px 10px rgba(0, 0, 0, 0.5);
+   border-radius: 50% !important;
+}
+
+.MuiButton-root .plus_sign  /* black color er ta */
+{
+   font-size: 40px !important;
+   font-weight: 900;
+   color: #f4b400;
+   cursor: pointer;
+   z-index: 222;
+   background: transparent ;
+
+}
+
+.MuiButton-root:hover
+{
+   background: #f4b400 !important;
+}
+
+.MuiButton-root:hover .plus_sign
+{
+   color: #fff;
+   background: transparent ;
+}
+
+.note /* blueviolet color er div*/
+{
+   background: #f5ba13;
+   border-radius: 7px;
+   box-shadow: 0 2px 5px #ccc;
+   padding: 10px;
+   width: 240px;
+   float: left;
+   margin: 16px
+}
+
+.note h1 /* red color er ta*/
+{
+   font-size: 1.1em;
+   margin-bottom: 6px;
+   background-color: rgb(201, 224, 211);
+}
+
+.note p /* burlywood color er ta ta*/
+{
+   background-color: rgb(201, 224, 211);
+   font-size: 1.1em;
+   margin-bottom: 10px;
+   white-space: pre-wrap;
+   word-wrap: break-word;
+}
+
+.note .btn /* note div er vitorer btn */
+{
+   position: relative;
+   float: right;
+   margin-right:10px;
+   color:#f4b400;
+   border: none;
+   outline: none;
+   width: 50px;
+   height: 50px;
+   background: yellowgreen;
+   cursor: pointer;
+   box-shadow: 3px 3px 15px 10px rgba(0, 0, 0, 0.5);
+}
+
+.deleteIcon /* note div er vitorer btn er delete icon */
+{
+   width: 0.7em;
+   height:0.7em;
+}
+
+.note .btn:hover
+{
+background-color: #f5ba13;
+}
+
+.note .btn:hover .deleteIcon
+{
+   color: #fff;
+}
+
+footer /* nicher tuku*/
+{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: yellow;
+   position: relative;
+   top: 395px;
+}
+
